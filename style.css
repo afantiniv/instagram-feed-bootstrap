@@ -1,0 +1,47 @@
+.h20{
+    min-height: 20em;
+}
+
+.nav-pills .nav-link{
+    color: black;
+    background-color: white;
+}
+
+.nav-pills .nav-link.active {
+    color: blue !important;
+    background-color: white;
+  }
+
+.logo{
+    margin-left: 5px;
+    height: 30px;
+    width: auto;
+}
+
+.newpostbtn{
+    width: 100%;
+}
+
+footer{
+    height: 50px;
+}
+
+.pulso{
+    color: red;
+    font-size:100%;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		font-size: 75%;
+	}
+
+	70% {
+		font-size: 100%;;
+	}
+
+	100% {
+		font-size: 75%;
+	}
+}
